@@ -1,0 +1,27 @@
+
+/*
+    Copyright (c) Carlos Tojal 2020
+    drawing-app 
+    style.css
+*/
+
+#canvas {
+    cursor: crosshair;
+    outline: black 2px solid;
+    width: 100%;
+    height: 100%;
+}
+
+#toolbar {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 10%;
+    height: 10%;
+    background-color: white;
+}
+
+#toolbar button {
+    width: 100%;
+    height: 5%;
+}
